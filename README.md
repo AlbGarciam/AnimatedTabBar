@@ -22,7 +22,7 @@ pod 'AnimatedTabBar'
 
 ## Author
 
-alb.garciam@gmail.com, alb.garciam@gmail.com
+**Alberto Garcia** - *Initial work* - [AlbGarciam](https://github.com/AlbGarciam)
 
 ## License
 
