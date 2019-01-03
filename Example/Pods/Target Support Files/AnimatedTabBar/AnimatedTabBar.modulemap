@@ -1,0 +1,6 @@
+framework module AnimatedTabBar {
+  umbrella header "AnimatedTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

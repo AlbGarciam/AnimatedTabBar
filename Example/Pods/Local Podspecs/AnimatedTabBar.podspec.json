@@ -1,0 +1,23 @@
+{
+  "name": "AnimatedTabBar",
+  "version": "0.1.0",
+  "summary": "A short description of AnimatedTabBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AlbGarciam/AnimatedTabBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alb.garciam@gmail.com": "alb.garciam@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/AlbGarciam/AnimatedTabBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_version": "4.2",
+  "source_files": "AnimatedTabBar/Classes/**/*"
+}
