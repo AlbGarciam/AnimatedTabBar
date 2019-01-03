@@ -7,7 +7,7 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-![](https://github.com/AlbGarciam/AnimatedTabBar/AnimatedTabBar.gif)
+![](https://github.com/AlbGarciam/AnimatedTabBar/blob/master/AnimatedTabBar.gif)
 
 ## Requirements
 * iOS 10.0+
