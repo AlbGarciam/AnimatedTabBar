@@ -7,9 +7,11 @@
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![](AnimatedTabBar.gif)
 
 ## Requirements
-![](AnimatedTabBar.gif)
+* iOS 10.0+
+* Swift 4.2
 
 ## Installation
 
