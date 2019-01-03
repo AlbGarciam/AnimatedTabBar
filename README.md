@@ -1,6 +1,5 @@
 # AnimatedTabBar
 
-[![CI Status](https://img.shields.io/travis/alb.garciam@gmail.com/AnimatedTabBar.svg?style=flat)](https://travis-ci.org/alb.garciam@gmail.com/AnimatedTabBar)
 [![Version](https://img.shields.io/cocoapods/v/AnimatedTabBar.svg?style=flat)](https://cocoapods.org/pods/AnimatedTabBar)
 [![License](https://img.shields.io/cocoapods/l/AnimatedTabBar.svg?style=flat)](https://cocoapods.org/pods/AnimatedTabBar)
 [![Platform](https://img.shields.io/cocoapods/p/AnimatedTabBar.svg?style=flat)](https://cocoapods.org/pods/AnimatedTabBar)
@@ -10,6 +9,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+![](AnimatedTabBar.gif)
 
 ## Installation
 
