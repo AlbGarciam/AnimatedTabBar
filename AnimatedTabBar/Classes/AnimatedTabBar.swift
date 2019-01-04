@@ -113,7 +113,9 @@ open class AnimatedTabBar: CommonUIView {
 extension AnimatedTabBar : AnimatedTabBarViewDelegate {
     func didTapped(on item: AnimatedTabBarView) {
         if item.isSelected { // move to root
-            
+            if let nav = selected?.associatedController as? UINavigationController {
+                nav.popToRootViewController(animated: true)
+            }
         } else { // replace view
             selectItem(at: item.position)
         }
