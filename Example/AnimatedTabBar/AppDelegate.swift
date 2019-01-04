@@ -15,17 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var items = [AnimatedTabBarItem(icon: UIImage(named: "thunder") ?? UIImage(),
                                     title: "New", controller: UIViewController()),
                  AnimatedTabBarItem(icon: UIImage(named: "home") ?? UIImage(),
-                                    title: "Home", controller: UIViewController()),
+                                    title: "Home", controller: ViewController.create() ?? UIViewController()),
                  AnimatedTabBarItem(icon: UIImage(named: "search") ?? UIImage(),
                                     title: "Search", controller: UIViewController())]
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateInitialViewController()
-        
-        (controller as? AnimatedTabBarController)?.delegate = self
+        let controller = AnimatedTabBarController()
+        controller.delegate = self
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = .white
