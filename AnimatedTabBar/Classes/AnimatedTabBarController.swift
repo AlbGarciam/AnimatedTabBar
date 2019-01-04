@@ -43,12 +43,27 @@ open class AnimatedTabBarController: UIViewController {
         
         tabBar.addConstraint(heightConstraint)
     }
-    
-    override open func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
+    open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
         coordinator.animate(alongsideTransition: { [weak self] (_) in
-            self?.heightConstraint.constant = heightOfStackView+bottomSafeAreaHeight
+            self?.addTabBarConstraint()
             }, completion: nil)
-        super.willTransition(to: newCollection, with: coordinator)
+    }
+    
+    private func addTabBarConstraint() {
+        if let heightConstraint = heightConstraint {
+            heightConstraint.constant = heightOfStackView+bottomSafeAreaHeight
+        } else {
+            let heightConstraint = NSLayoutConstraint(item: tabBar,
+                                                      attribute: .height,
+                                                      relatedBy: .equal,
+                                                      toItem: nil,
+                                                      attribute: .notAnAttribute,
+                                                      multiplier: 1,
+                                                      constant: heightOfStackView+bottomSafeAreaHeight)
+            tabBar.addConstraint(heightConstraint)
+            self.heightConstraint = heightConstraint
+        }
     }
     
     private func addTabBar() {
