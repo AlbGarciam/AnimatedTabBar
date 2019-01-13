@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-open class SoundTabBarAppearance {
-    public static let shared : SoundTabBarAppearance = SoundTabBarAppearance()
+open class AnimatedTabBarAppearance {
+    public static let shared : AnimatedTabBarAppearance = AnimatedTabBarAppearance()
     
     /// Animation duration
     open var animationDuration: TimeInterval = 1.5
@@ -32,4 +32,7 @@ open class SoundTabBarAppearance {
     
     /// Background color
     open var backgroundColor: UIColor = .white
+    
+    /// Pops to root if true
+    open var popsToRoot: Bool = true
 }

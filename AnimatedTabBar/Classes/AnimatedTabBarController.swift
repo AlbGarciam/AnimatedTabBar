@@ -69,7 +69,7 @@ open class AnimatedTabBarController: UIViewController {
     private func addTabBar() {
         let tabBar = AnimatedTabBar()
         tabBar.containerView = contentView
-        tabBar.backgroundColor = SoundTabBarAppearance.shared.backgroundColor
+        tabBar.backgroundColor = AnimatedTabBarAppearance.shared.backgroundColor
         tabBar.translatesAutoresizingMaskIntoConstraints = false
         tabBar.delegate = delegate
         tabBar.clipsToBounds = true

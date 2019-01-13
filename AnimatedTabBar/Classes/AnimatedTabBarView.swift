@@ -28,7 +28,7 @@ class AnimatedTabBarView: CommonUIView {
             let newValue = isSelected ?? false
             let imageHeight = -imageView.bounds.height
             labelAndDot.isSelected = isSelected
-            UIView.animate(withDuration: SoundTabBarAppearance.shared.animationDuration
+            UIView.animate(withDuration: AnimatedTabBarAppearance.shared.animationDuration
                 , delay: 0, usingSpringWithDamping: 0.45, initialSpringVelocity: 0, options: .curveEaseInOut, animations: { [weak self] in
                 self?.imageView.alpha = newValue ? 0 : 1
                 self?.labelAndDot.alpha = newValue ? 1 : 0

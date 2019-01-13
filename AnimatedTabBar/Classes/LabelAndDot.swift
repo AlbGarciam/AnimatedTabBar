@@ -17,7 +17,7 @@ class LabelAndDot: CommonUIView {
     var isSelected : Bool = false {
         didSet {
             let selected = isSelected
-            UIView.animate(withDuration: SoundTabBarAppearance.shared.animationDuration
+            UIView.animate(withDuration: AnimatedTabBarAppearance.shared.animationDuration
                 , delay: 0, usingSpringWithDamping: 0.45, initialSpringVelocity: 0, options: .curveEaseInOut, animations: { [weak self] in
                     self?.widthConstraint.constant = selected ? 4 : 0
                     self?.heightConstraint.constant = selected ? 4 : 0
@@ -43,7 +43,7 @@ class LabelAndDot: CommonUIView {
     }
     
     private func configureDot() {
-        dot.backgroundColor = SoundTabBarAppearance.shared.dotColor
+        dot.backgroundColor = AnimatedTabBarAppearance.shared.dotColor
         dot.layer.cornerRadius = 2
         
         dot.translatesAutoresizingMaskIntoConstraints = false
@@ -58,8 +58,8 @@ class LabelAndDot: CommonUIView {
     
     private func configureLabel() {
         label.text = text
-        label.font = SoundTabBarAppearance.shared.textFont
-        label.textColor = SoundTabBarAppearance.shared.textColor
+        label.font = AnimatedTabBarAppearance.shared.textFont
+        label.textColor = AnimatedTabBarAppearance.shared.textColor
         label.textAlignment = .center
         
         label.translatesAutoresizingMaskIntoConstraints = false
