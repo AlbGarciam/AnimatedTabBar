@@ -78,6 +78,7 @@ open class AnimatedTabBarController: UIViewController {
         tabBar.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         tabBar.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 1).isActive = true
         tabBar.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        tabBar.internalDelegate = self
         self.tabBar = tabBar
     }
     
@@ -90,5 +91,19 @@ open class AnimatedTabBarController: UIViewController {
         contentView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         contentView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         self.contentView = contentView
+    }
+}
+
+extension AnimatedTabBarController : AnimatedTabBarInternalDelegate {
+    func selected(_ tabbar: AnimatedTabBar, newItem: UIViewController?, oldItem: UIViewController?) {
+        if let oldController = oldItem {
+            oldController.removeFromParent()
+            oldController.view.removeFromSuperview()
+        }
+        if let newController = newItem {
+            addChild(newController)
+            contentView.addSubview(newController.view)
+            newController.view.frame = contentView.bounds
+        }
     }
 }

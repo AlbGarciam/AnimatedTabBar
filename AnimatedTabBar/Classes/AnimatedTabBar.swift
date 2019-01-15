@@ -14,6 +14,10 @@ public protocol AnimatedTabBarDelegate : AnyObject {
     func initialIndex(_ tabBar: AnimatedTabBar) -> Int?
 }
 
+internal protocol AnimatedTabBarInternalDelegate : AnyObject {
+    func selected(_ tabbar: AnimatedTabBar, newItem: UIViewController?, oldItem: UIViewController?)
+}
+
 public struct AnimatedTabBarItem {
     public var icon: UIImage
     public var title: String
@@ -31,15 +35,14 @@ open class AnimatedTabBar: CommonUIView {
     private var contentView : UIView!
     internal var stackView: UIStackView!
     open weak var delegate: AnimatedTabBarDelegate?
+    internal weak var internalDelegate : AnimatedTabBarInternalDelegate?
     
     internal weak var containerView : UIView?
     private(set) var selected: AnimatedTabBarView? {
         didSet {
-            guard let newView = selected?.associatedController?.view else { return }
-            guard let containerView = containerView else { return }
-            containerView.subviews.forEach{ $0.removeFromSuperview() }
-            containerView.addSubview(newView)
-            newView.frame = containerView.bounds
+            internalDelegate?.selected(self,
+                                       newItem: selected?.associatedController,
+                                       oldItem: oldValue?.associatedController)
         }
     }
     
