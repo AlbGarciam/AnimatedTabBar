@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AnimatedTabBar_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AnimatedTabBar_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ExampleVersionString[];
 
