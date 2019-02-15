@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  AnimatedTabBar_Example
+//  Example
 //
-//  Created by Alberto García-Muñoz on 04/01/2019.
-//  Copyright © 2019 CocoaPods. All rights reserved.
+//  Created by Alberto García-Muñoz on 15/02/2019.
+//  Copyright © 2019 AlbGarciam. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         let controller = storyboard.instantiateInitialViewController()
         return controller
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         NSLog("ViewDidLoad")
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         NSLog("ViewWillAppear")
     }
-
+    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         NSLog("ViewWillDisappear")
