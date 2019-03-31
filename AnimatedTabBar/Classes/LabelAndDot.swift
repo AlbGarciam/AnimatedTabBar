@@ -49,8 +49,8 @@ class LabelAndDot: CommonUIView {
         dot.translatesAutoresizingMaskIntoConstraints = false
         addSubview(dot)
         
-        widthConstraint = NSLayoutConstraint(item: dot, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 4)
-        heightConstraint = NSLayoutConstraint(item: dot, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 4)
+        widthConstraint = NSLayoutConstraint(item: dot!, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 4)
+        heightConstraint = NSLayoutConstraint(item: dot!, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 4)
         addConstraints([widthConstraint, heightConstraint])
         dot.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         dot.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true

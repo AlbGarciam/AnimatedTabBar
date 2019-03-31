@@ -333,7 +333,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1FF6A47F01F29E1F07CD94507177ED14 /* Debug */ = {
+		8EE67BD11D60E678D54BFF4633C7694F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 898F3BFEAE094F2C89E04E8997D2897A /* AnimatedTabBar.xcconfig */;
 			buildSettings = {
@@ -362,14 +362,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		70DBDCFD50C89E40655FEDD89D92CC1A /* Release */ = {
+		A07A7574702D10925DB8F8BC185F8FF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 898F3BFEAE094F2C89E04E8997D2897A /* AnimatedTabBar.xcconfig */;
 			buildSettings = {
@@ -398,7 +398,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -631,8 +631,8 @@
 		78F37A9EC3EC2708B47E7A0FB64CF839 /* Build configuration list for PBXNativeTarget "AnimatedTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1FF6A47F01F29E1F07CD94507177ED14 /* Debug */,
-				70DBDCFD50C89E40655FEDD89D92CC1A /* Release */,
+				8EE67BD11D60E678D54BFF4633C7694F /* Debug */,
+				A07A7574702D10925DB8F8BC185F8FF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

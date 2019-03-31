@@ -78,7 +78,7 @@ class AnimatedTabBarView: CommonUIView {
     }
     
     private func generateTopConstraint() {
-        topConstraint = NSLayoutConstraint(item: imageView,
+        topConstraint = NSLayoutConstraint(item: imageView!,
                            attribute: .top,
                            relatedBy: .equal,
                            toItem: contentView,

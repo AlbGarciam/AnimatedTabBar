@@ -33,7 +33,7 @@ open class AnimatedTabBarController: UIViewController {
     override open func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        heightConstraint = NSLayoutConstraint(item: tabBar,
+        heightConstraint = NSLayoutConstraint(item: tabBar!,
                                               attribute: .height,
                                               relatedBy: .equal,
                                               toItem: nil,
@@ -54,7 +54,7 @@ open class AnimatedTabBarController: UIViewController {
         if let heightConstraint = heightConstraint {
             heightConstraint.constant = heightOfStackView+bottomSafeAreaHeight
         } else {
-            let heightConstraint = NSLayoutConstraint(item: tabBar,
+            let heightConstraint = NSLayoutConstraint(item: tabBar!,
                                                       attribute: .height,
                                                       relatedBy: .equal,
                                                       toItem: nil,
@@ -97,13 +97,17 @@ open class AnimatedTabBarController: UIViewController {
 extension AnimatedTabBarController : AnimatedTabBarInternalDelegate {
     func selected(_ tabbar: AnimatedTabBar, newItem: UIViewController?, oldItem: UIViewController?) {
         if let oldController = oldItem {
+            oldController.willMove(toParent: nil)
             oldController.removeFromParent()
             oldController.view.removeFromSuperview()
+            oldController.didMove(toParent: nil)
         }
         if let newController = newItem {
+            newController.willMove(toParent: self)
             addChild(newController)
             contentView.addSubview(newController.view)
             newController.view.frame = contentView.bounds
+            newController.didMove(toParent: self)
         }
     }
 }
