@@ -68,6 +68,7 @@ open class AnimatedTabBarController: UIViewController {
     
     private func addTabBar() {
         let tabBar = AnimatedTabBar()
+        tabBar.internalDelegate = self
         tabBar.containerView = contentView
         tabBar.backgroundColor = AnimatedTabBarAppearance.shared.backgroundColor
         tabBar.translatesAutoresizingMaskIntoConstraints = false
@@ -78,7 +79,6 @@ open class AnimatedTabBarController: UIViewController {
         tabBar.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         tabBar.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 1).isActive = true
         tabBar.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        tabBar.internalDelegate = self
         self.tabBar = tabBar
     }
     
