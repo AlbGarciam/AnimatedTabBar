@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AnimatedTabBar'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Animated tabbar is Swift UI module framework for adding animations to iOS tabBar items and icons.'
 
 # This description is used to generate tags and improve search results.
