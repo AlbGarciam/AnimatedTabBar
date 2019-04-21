@@ -12,6 +12,8 @@ public protocol AnimatedTabBarItem : AnyObject {
     var selectedIcon: UIImage? { get }
     var title: String { get }
     var controller: UIViewController { get }
+
+    func getView() -> UIView
 }
 
 extension AnimatedTabBarItem {

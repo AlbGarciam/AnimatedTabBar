@@ -8,11 +8,7 @@
 
 import UIKit
 
-protocol AnimatedTabBarViewDelegate: AnyObject {
-    func didTapped(on item: AnimatedTabBarView)
-}
-
-class AnimatedTabBarView: CommonUIView {
+class LabelAndDotTabBarView: CommonUIView, AnimatedTabBarView {
 
     private var contentView: UIView!
     private var imageView: UIImageView!
@@ -23,9 +19,9 @@ class AnimatedTabBarView: CommonUIView {
     internal var associatedController: UIViewController?
     
     private var topConstraint: NSLayoutConstraint!
-    internal var isSelected : Bool! {
+    internal var isSelected : Bool = false {
         didSet {
-            let newValue = isSelected ?? false
+            let newValue = isSelected
             let imageHeight = -imageView.bounds.height
             labelAndDot.isSelected = isSelected
             UIView.animate(withDuration: AnimatedTabBarAppearance.shared.animationDuration
@@ -51,7 +47,7 @@ class AnimatedTabBarView: CommonUIView {
         configureImageView()
         configureLabelAndDot()
         if newSuperview != nil {
-            let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(AnimatedTabBarView.itemTapped(_:)))
+            let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(itemTapped(_:)))
             gestureRecognizer.numberOfTapsRequired = 1
             addGestureRecognizer(gestureRecognizer)
         } else {
@@ -62,7 +58,7 @@ class AnimatedTabBarView: CommonUIView {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        topConstraint.constant = (isSelected ?? false) ? -imageView.bounds.height : 0
+        topConstraint.constant = isSelected ? -imageView.bounds.height : 0
     }
     
     private func configureContentView() {
@@ -112,9 +108,9 @@ class AnimatedTabBarView: CommonUIView {
         labelAndDot.topAnchor.constraint(equalTo: imageView.bottomAnchor).isActive = true
     }
     
-    func setupView(model: AnimatedTabBarItem) {
+    func setupView(model: LabelAndDotTabBarItem) {
         self.associatedController = model.controller
-        labelAndDot.label.text = model.title
+        labelAndDot.text = model.title
         imageView.image = model.icon.imageWithInsets(insetDimen: 4)
     }
     

@@ -12,9 +12,15 @@ public class LabelAndDotTabBarItem: AnimatedTabBarItem {
     public var title: String
     public var controller: UIViewController
     
-    public init(icon: UIImage, title: String, controller: UIViewController) {
+    public init(title: String, controller: UIViewController, icon: UIImage) {
         self.icon = icon
         self.title = title
         self.controller = controller
+    }
+    
+    public func getView() -> UIView {
+        let view = LabelAndDotTabBarView()
+        view.setupView(model: self)
+        return view
     }
 }

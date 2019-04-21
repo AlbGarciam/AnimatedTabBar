@@ -12,12 +12,12 @@ import AnimatedTabBar
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    var items = [LabelAndDotTabBarItem(icon: UIImage(named: "thunder") ?? UIImage(),
-                                    title: "New", controller: UIViewController()),
-                 LabelAndDotTabBarItem(icon: UIImage(named: "home") ?? UIImage(),
-                                    title: "Home", controller: ViewController.create() ?? UIViewController()),
-                 LabelAndDotTabBarItem(icon: UIImage(named: "search") ?? UIImage(),
-                                    title: "Search", controller: UIViewController())]
+    var items: [AnimatedTabBarItem] = [BubbleTabBarItem(title: "New", controller: UIViewController(),
+                                  icon: UIImage(named: "thunder") ?? UIImage()),
+                 LabelAndDotTabBarItem(title: "New", controller: UIViewController(),
+                                       icon: UIImage(named: "thunder") ?? UIImage()),
+                 LabelAndDotTabBarItem(title: "New", controller: UIViewController(),
+                                       icon: UIImage(named: "thunder") ?? UIImage())]
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

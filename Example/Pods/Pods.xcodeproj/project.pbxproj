@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C153651B0D14B7BCDA35DC89389D919 /* AnimatedTabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CF0E12FF51BF100FDDEF8A7702AA1 /* AnimatedTabBarAppearance.swift */; };
-		275D22BCBE0D06A0C81B82F6C2CDA063 /* AnimatedTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DCC9B9091C46C547B60FDF54DFD1BA /* AnimatedTabBarView.swift */; };
-		29B0E4CD1282BDF1156BD18A8828A4AB /* AnimatedTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44232382FE9F67AA780B7924B9D9107 /* AnimatedTabBarItem.swift */; };
-		300605DF727CD0DB84FFCF69A6318835 /* LabelAndDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CBC354115B6BFD48AD6E322857D4CF /* LabelAndDot.swift */; };
-		416FC2C79222E2947B987068355D151F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		0A922380BC3AFEC10B36DFFF3C883A73 /* LabelAndDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7194D40D376ABEAB566C1682EA11C5B7 /* LabelAndDot.swift */; };
+		0FE54C19F3A3FEE373FB47836FDE4460 /* AnimatedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D555D8FCD490AB9D466B80C1CB2776D4 /* AnimatedTabBar.swift */; };
+		1FB02204DD4EFD48F7746395E89791D6 /* AnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E99955A18042CB7B93EF4EED7943BED /* AnimatedTabBarController.swift */; };
+		3AA9B94DD044F8959B165EC1A4166423 /* AnimatedTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F91973A3D6AAA5A09E1E9108D213832 /* AnimatedTabBarView.swift */; };
 		4AAFD82605DB3F5B83962DF1BE62A624 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96575DA5A33E3BA4F12184BFE42BAD90 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50BE9AFB27EBB4E3F644E59985100F87 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ACFBF7097B199449E8749F7EE01465 /* Pods-Example-dummy.m */; };
-		54AF60B9F8F61CBF973FF996CE1E7FB0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF74A8318DC947DF2EE7FCBB9982B0 /* Utils.swift */; };
-		77D320B59C729CDDCB48AA85BBBEC5E1 /* AnimatedTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1FF8AC0F75DCB1B1A76B3BD2E74CDD /* AnimatedTabBar-dummy.m */; };
-		7C3DA675DA791885DFCCC54D8CB965AE /* LabelAndDotTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCA0F694ECEBDDE21EA6A7BF27EC7A8 /* LabelAndDotTabBarItem.swift */; };
-		8AD06E73F9C48AF1F4D14A72EF1A3F20 /* AnimatedTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73693417104ACCFECABF8DD7C9224957 /* AnimatedTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67920B764D029F1D7C8541A44010DC77 /* CommonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB549EBADF6E55A41CD60E38F4978DF5 /* CommonUIView.swift */; };
+		681AAE69AAD9B0C23BEB604DC7151105 /* BubbleTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AB9AC231328C97E7D95B2EA3367EA1 /* BubbleTabBarView.swift */; };
+		6C6849AE3D563E1E51D7CE44080CB13C /* AnimatedTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DF06269BF46DBAA5AC4028813B478 /* AnimatedTabBarItem.swift */; };
+		7797328002FF772797289E0E38818F4C /* LabelAndDotTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A72977B5A588D8EB4CC4BA1C37F962 /* LabelAndDotTabBarItem.swift */; };
+		78B1937FEF0AA8A0D08204FC66242273 /* BubbleTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0D4A62CD3C6FC5CA56CE31E25F8207 /* BubbleTabBarItem.swift */; };
+		A056E5E2053F3A27B922203904BBB19D /* AnimatedTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 259A1325B90DA45A939DEB41DFE8FA45 /* AnimatedTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD6C8104FFBCE1824A8C2FA8C2E48C9B /* LabelAndDotTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30393E1ED1FB22FC8E9EC7CE51F3F039 /* LabelAndDotTabBarView.swift */; };
 		ADEF0440C60708D1783237F3DF36F47A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		AFDF24E3C435C1FAF35849F5029579E2 /* AnimatedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BAEC619673B4ED29BA137F48900D8D /* AnimatedTabBar.swift */; };
-		CFA11A8045B92B97EB14310710AFCA99 /* AnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41C367F2CC557648749217F721CA0C /* AnimatedTabBarController.swift */; };
-		FE65BD9D1F641FD77B5CB345D3E9376B /* CommonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01E191B7F67FAE3CA04996BB14CB08E /* CommonUIView.swift */; };
+		AEE21623DBA3E1D3827895AA1ED594B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		BC8EEED8283908901415DE1E4216DB3D /* AnimatedTabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCCC2400F1649812050346987B9ECF /* AnimatedTabBarAppearance.swift */; };
+		DD44C3A218C78287145828E615A367CE /* AnimatedTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 095A5E7E907A2833D7DE10E4D783A9B9 /* AnimatedTabBar-dummy.m */; };
+		E585CC2A25B33133A73532E2F05709D4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92E0F88C9DC3E2E813C2ADB1BBCAC28 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,43 +32,46 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C0997E583CFC77E54609DF1DD87782D3;
+			remoteGlobalIDString = B1F8F4ABFD26B698DC982B44770511C8;
 			remoteInfo = AnimatedTabBar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01AF74A8318DC947DF2EE7FCBB9982B0 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = AnimatedTabBar/Classes/Utils.swift; sourceTree = "<group>"; };
+		095A5E7E907A2833D7DE10E4D783A9B9 /* AnimatedTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedTabBar-dummy.m"; sourceTree = "<group>"; };
 		0D7670157C7D120B0D5E584600E00029 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		1E41C367F2CC557648749217F721CA0C /* AnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTabBarController.swift; path = AnimatedTabBar/Classes/AnimatedTabBarController.swift; sourceTree = "<group>"; };
-		20041B68E4A509C7F834934DF1AAC387 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2888954E844D2C207C5D17420AF957C2 /* AnimatedTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedTabBar.modulemap; sourceTree = "<group>"; };
-		2A42FD92DB0826E3114CEC12C51C8DFE /* AnimatedTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnimatedTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		259A1325B90DA45A939DEB41DFE8FA45 /* AnimatedTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedTabBar-umbrella.h"; sourceTree = "<group>"; };
 		2C162FC21D423A87FC143A0B632CFC08 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		30393E1ED1FB22FC8E9EC7CE51F3F039 /* LabelAndDotTabBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelAndDotTabBarView.swift; sourceTree = "<group>"; };
 		35E2C288A180219D12F161F8F67849E8 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		40CBC354115B6BFD48AD6E322857D4CF /* LabelAndDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelAndDot.swift; sourceTree = "<group>"; };
 		415F61F11BD564043CA80AC49145E3C2 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		4C25E685665FD13770AA529DD685842F /* AnimatedTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimatedTabBar-Info.plist"; sourceTree = "<group>"; };
-		53490900D7FE22C6EED55807F8192750 /* AnimatedTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedTabBar-prefix.pch"; sourceTree = "<group>"; };
+		434AE08D4C50C79513356B8EBA793EB8 /* AnimatedTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedTabBar-prefix.pch"; sourceTree = "<group>"; };
+		4ED01FAED1005C999DE982B462EDE0F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		55D3ADE233900B5C67CEBDDED9DCECCC /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6A1FF8AC0F75DCB1B1A76B3BD2E74CDD /* AnimatedTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedTabBar-dummy.m"; sourceTree = "<group>"; };
-		73693417104ACCFECABF8DD7C9224957 /* AnimatedTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedTabBar-umbrella.h"; sourceTree = "<group>"; };
+		5D0D4A62CD3C6FC5CA56CE31E25F8207 /* BubbleTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTabBarItem.swift; sourceTree = "<group>"; };
+		5E6EA36CEFB0F4BF4762733B7081FD4F /* AnimatedTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedTabBar.modulemap; sourceTree = "<group>"; };
+		5FBCFD2761D918959144119E2D47F832 /* AnimatedTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AnimatedTabBar-Info.plist"; sourceTree = "<group>"; };
+		657DF06269BF46DBAA5AC4028813B478 /* AnimatedTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTabBarItem.swift; path = AnimatedTabBar/Classes/AnimatedTabBarItem.swift; sourceTree = "<group>"; };
+		6E99955A18042CB7B93EF4EED7943BED /* AnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTabBarController.swift; path = AnimatedTabBar/Classes/AnimatedTabBarController.swift; sourceTree = "<group>"; };
+		7194D40D376ABEAB566C1682EA11C5B7 /* LabelAndDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelAndDot.swift; sourceTree = "<group>"; };
 		76ACFBF7097B199449E8749F7EE01465 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		7FFFE1117C7ED546C33FF4198D67C251 /* AnimatedTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedTabBar.xcconfig; sourceTree = "<group>"; };
-		80DCC9B9091C46C547B60FDF54DFD1BA /* AnimatedTabBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarView.swift; sourceTree = "<group>"; };
-		83BAEC619673B4ED29BA137F48900D8D /* AnimatedTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTabBar.swift; path = AnimatedTabBar/Classes/AnimatedTabBar.swift; sourceTree = "<group>"; };
+		8016E0F778CA3F11FB935C351B2CCFA4 /* AnimatedTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AnimatedTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83BCCC2400F1649812050346987B9ECF /* AnimatedTabBarAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTabBarAppearance.swift; path = AnimatedTabBar/Classes/AnimatedTabBarAppearance.swift; sourceTree = "<group>"; };
 		96575DA5A33E3BA4F12184BFE42BAD90 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F1CF0E12FF51BF100FDDEF8A7702AA1 /* AnimatedTabBarAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTabBarAppearance.swift; path = AnimatedTabBar/Classes/AnimatedTabBarAppearance.swift; sourceTree = "<group>"; };
+		9F91973A3D6AAA5A09E1E9108D213832 /* AnimatedTabBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTabBarView.swift; path = AnimatedTabBar/Classes/AnimatedTabBarView.swift; sourceTree = "<group>"; };
+		A36A3969C5792A42A38CE66A0D263B0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		ADD0587B37B52C1E8ECBBA43CF7761CB /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B44232382FE9F67AA780B7924B9D9107 /* AnimatedTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTabBarItem.swift; path = AnimatedTabBar/Classes/AnimatedTabBarItem.swift; sourceTree = "<group>"; };
-		BCCA0F694ECEBDDE21EA6A7BF27EC7A8 /* LabelAndDotTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelAndDotTabBarItem.swift; sourceTree = "<group>"; };
+		B92E0F88C9DC3E2E813C2ADB1BBCAC28 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = AnimatedTabBar/Classes/Utils.swift; sourceTree = "<group>"; };
+		BB549EBADF6E55A41CD60E38F4978DF5 /* CommonUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommonUIView.swift; path = AnimatedTabBar/Classes/CommonUIView.swift; sourceTree = "<group>"; };
 		BCD60B70C5F88E36546ECF46EC12364B /* AnimatedTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedTabBar.framework; path = AnimatedTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3540EE5F751CD4A2BBAEF2D59E33F22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C743D3A5AB93A727EA1A577CE93AF024 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2AB5F827496D37BFE9379E097AF43D2 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F01E191B7F67FAE3CA04996BB14CB08E /* CommonUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommonUIView.swift; path = AnimatedTabBar/Classes/CommonUIView.swift; sourceTree = "<group>"; };
+		D555D8FCD490AB9D466B80C1CB2776D4 /* AnimatedTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedTabBar.swift; path = AnimatedTabBar/Classes/AnimatedTabBar.swift; sourceTree = "<group>"; };
+		DE225CB49CB0EF4159351D5934A19415 /* AnimatedTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedTabBar.xcconfig; sourceTree = "<group>"; };
+		F6A72977B5A588D8EB4CC4BA1C37F962 /* LabelAndDotTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelAndDotTabBarItem.swift; sourceTree = "<group>"; };
+		F8AB9AC231328C97E7D95B2EA3367EA1 /* BubbleTabBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,26 +83,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E55AF9340925444315E3A0C7211EB7FA /* Frameworks */ = {
+		D6C8D849042F6D404C188B1114951D15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416FC2C79222E2947B987068355D151F /* Foundation.framework in Frameworks */,
+				AEE21623DBA3E1D3827895AA1ED594B3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		531F7A83DCF022F61A264891EA889FF3 /* LabelAndDot */ = {
+		3A79C6A2C29C5973668FABE8CE5E7D18 /* LabelAndDot */ = {
 			isa = PBXGroup;
 			children = (
-				80DCC9B9091C46C547B60FDF54DFD1BA /* AnimatedTabBarView.swift */,
-				40CBC354115B6BFD48AD6E322857D4CF /* LabelAndDot.swift */,
-				BCCA0F694ECEBDDE21EA6A7BF27EC7A8 /* LabelAndDotTabBarItem.swift */,
+				7194D40D376ABEAB566C1682EA11C5B7 /* LabelAndDot.swift */,
+				F6A72977B5A588D8EB4CC4BA1C37F962 /* LabelAndDotTabBarItem.swift */,
+				30393E1ED1FB22FC8E9EC7CE51F3F039 /* LabelAndDotTabBarView.swift */,
 			);
 			name = LabelAndDot;
 			path = AnimatedTabBar/Classes/LabelAndDot;
+			sourceTree = "<group>";
+		};
+		427D869F52191B7F5E5368B66E15DFCE /* Bubble */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D4A62CD3C6FC5CA56CE31E25F8207 /* BubbleTabBarItem.swift */,
+				F8AB9AC231328C97E7D95B2EA3367EA1 /* BubbleTabBarView.swift */,
+			);
+			name = Bubble;
+			path = AnimatedTabBar/Classes/Bubble;
 			sourceTree = "<group>";
 		};
 		63E5855980ECAB21223D018EBC3EA9B6 /* Products */ = {
@@ -108,6 +124,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		78396653CAC4996D229E93C9AE5B8F0B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8016E0F778CA3F11FB935C351B2CCFA4 /* AnimatedTabBar.podspec */,
+				4ED01FAED1005C999DE982B462EDE0F7 /* LICENSE */,
+				A36A3969C5792A42A38CE66A0D263B0D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8D235DB9BD56F1E2E80B841643D5678C /* AnimatedTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D555D8FCD490AB9D466B80C1CB2776D4 /* AnimatedTabBar.swift */,
+				83BCCC2400F1649812050346987B9ECF /* AnimatedTabBarAppearance.swift */,
+				6E99955A18042CB7B93EF4EED7943BED /* AnimatedTabBarController.swift */,
+				657DF06269BF46DBAA5AC4028813B478 /* AnimatedTabBarItem.swift */,
+				9F91973A3D6AAA5A09E1E9108D213832 /* AnimatedTabBarView.swift */,
+				BB549EBADF6E55A41CD60E38F4978DF5 /* CommonUIView.swift */,
+				B92E0F88C9DC3E2E813C2ADB1BBCAC28 /* Utils.swift */,
+				427D869F52191B7F5E5368B66E15DFCE /* Bubble */,
+				3A79C6A2C29C5973668FABE8CE5E7D18 /* LabelAndDot */,
+				78396653CAC4996D229E93C9AE5B8F0B /* Pod */,
+				BEA882D1B132D78A75B8169CBFECC70E /* Support Files */,
+			);
+			name = AnimatedTabBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9760A50C9E57FF311D06E2F30CA43917 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D235DB9BD56F1E2E80B841643D5678C /* AnimatedTabBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,29 +169,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B881DAFBAE9890EB6C14BC23FAAE2652 /* Development Pods */ = {
+		BEA882D1B132D78A75B8169CBFECC70E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C19C8A4CDFDFBB0B75183B3B01ECD906 /* AnimatedTabBar */,
+				5E6EA36CEFB0F4BF4762733B7081FD4F /* AnimatedTabBar.modulemap */,
+				DE225CB49CB0EF4159351D5934A19415 /* AnimatedTabBar.xcconfig */,
+				095A5E7E907A2833D7DE10E4D783A9B9 /* AnimatedTabBar-dummy.m */,
+				5FBCFD2761D918959144119E2D47F832 /* AnimatedTabBar-Info.plist */,
+				434AE08D4C50C79513356B8EBA793EB8 /* AnimatedTabBar-prefix.pch */,
+				259A1325B90DA45A939DEB41DFE8FA45 /* AnimatedTabBar-umbrella.h */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C19C8A4CDFDFBB0B75183B3B01ECD906 /* AnimatedTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				83BAEC619673B4ED29BA137F48900D8D /* AnimatedTabBar.swift */,
-				9F1CF0E12FF51BF100FDDEF8A7702AA1 /* AnimatedTabBarAppearance.swift */,
-				1E41C367F2CC557648749217F721CA0C /* AnimatedTabBarController.swift */,
-				B44232382FE9F67AA780B7924B9D9107 /* AnimatedTabBarItem.swift */,
-				F01E191B7F67FAE3CA04996BB14CB08E /* CommonUIView.swift */,
-				01AF74A8318DC947DF2EE7FCBB9982B0 /* Utils.swift */,
-				531F7A83DCF022F61A264891EA889FF3 /* LabelAndDot */,
-				DED3A7AE1F3BC57CE1842A18B8563B67 /* Pod */,
-				E518B88222622591FD15F35C3A62DCCB /* Support Files */,
-			);
-			name = AnimatedTabBar;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AnimatedTabBar";
 			sourceTree = "<group>";
 		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
@@ -153,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B881DAFBAE9890EB6C14BC23FAAE2652 /* Development Pods */,
+				9760A50C9E57FF311D06E2F30CA43917 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				63E5855980ECAB21223D018EBC3EA9B6 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
@@ -166,30 +208,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DED3A7AE1F3BC57CE1842A18B8563B67 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2A42FD92DB0826E3114CEC12C51C8DFE /* AnimatedTabBar.podspec */,
-				C3540EE5F751CD4A2BBAEF2D59E33F22 /* LICENSE */,
-				20041B68E4A509C7F834934DF1AAC387 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		E518B88222622591FD15F35C3A62DCCB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2888954E844D2C207C5D17420AF957C2 /* AnimatedTabBar.modulemap */,
-				7FFFE1117C7ED546C33FF4198D67C251 /* AnimatedTabBar.xcconfig */,
-				6A1FF8AC0F75DCB1B1A76B3BD2E74CDD /* AnimatedTabBar-dummy.m */,
-				4C25E685665FD13770AA529DD685842F /* AnimatedTabBar-Info.plist */,
-				53490900D7FE22C6EED55807F8192750 /* AnimatedTabBar-prefix.pch */,
-				73693417104ACCFECABF8DD7C9224957 /* AnimatedTabBar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AnimatedTabBar";
 			sourceTree = "<group>";
 		};
 		F9A708936E99FD7F473C57BA21F7279D /* Pods-Example */ = {
@@ -212,11 +230,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A5A5BB7AB3D97A592343C7F952331689 /* Headers */ = {
+		5E42A4D26230E2596B8AC2939B7F1AC9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AD06E73F9C48AF1F4D14A72EF1A3F20 /* AnimatedTabBar-umbrella.h in Headers */,
+				A056E5E2053F3A27B922203904BBB19D /* AnimatedTabBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +268,14 @@
 			productReference = D2AB5F827496D37BFE9379E097AF43D2 /* Pods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C0997E583CFC77E54609DF1DD87782D3 /* AnimatedTabBar */ = {
+		B1F8F4ABFD26B698DC982B44770511C8 /* AnimatedTabBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9925ED1502C312D2789480628A2632F8 /* Build configuration list for PBXNativeTarget "AnimatedTabBar" */;
+			buildConfigurationList = 3FB46A23A2D42DC28FA871B528F26B4A /* Build configuration list for PBXNativeTarget "AnimatedTabBar" */;
 			buildPhases = (
-				A5A5BB7AB3D97A592343C7F952331689 /* Headers */,
-				80D89BBB9D68095E1AEA284719362F75 /* Sources */,
-				E55AF9340925444315E3A0C7211EB7FA /* Frameworks */,
-				5FF3095CB9E775AF5EC9C201C8870A62 /* Resources */,
+				5E42A4D26230E2596B8AC2939B7F1AC9 /* Headers */,
+				B5D2A6787ABAB73E4BA780EA4144F609 /* Sources */,
+				D6C8D849042F6D404C188B1114951D15 /* Frameworks */,
+				CEEEDA63FFB917922C2BADB6DE6B9B80 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -289,21 +307,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0997E583CFC77E54609DF1DD87782D3 /* AnimatedTabBar */,
+				B1F8F4ABFD26B698DC982B44770511C8 /* AnimatedTabBar */,
 				A890D00DE3918C25B11E82F9A6381B1F /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5FF3095CB9E775AF5EC9C201C8870A62 /* Resources */ = {
+		8F165A5B45B37E1B42C518D4950BC86D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F165A5B45B37E1B42C518D4950BC86D /* Resources */ = {
+		CEEEDA63FFB917922C2BADB6DE6B9B80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,20 +339,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80D89BBB9D68095E1AEA284719362F75 /* Sources */ = {
+		B5D2A6787ABAB73E4BA780EA4144F609 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77D320B59C729CDDCB48AA85BBBEC5E1 /* AnimatedTabBar-dummy.m in Sources */,
-				AFDF24E3C435C1FAF35849F5029579E2 /* AnimatedTabBar.swift in Sources */,
-				0C153651B0D14B7BCDA35DC89389D919 /* AnimatedTabBarAppearance.swift in Sources */,
-				CFA11A8045B92B97EB14310710AFCA99 /* AnimatedTabBarController.swift in Sources */,
-				29B0E4CD1282BDF1156BD18A8828A4AB /* AnimatedTabBarItem.swift in Sources */,
-				275D22BCBE0D06A0C81B82F6C2CDA063 /* AnimatedTabBarView.swift in Sources */,
-				FE65BD9D1F641FD77B5CB345D3E9376B /* CommonUIView.swift in Sources */,
-				300605DF727CD0DB84FFCF69A6318835 /* LabelAndDot.swift in Sources */,
-				7C3DA675DA791885DFCCC54D8CB965AE /* LabelAndDotTabBarItem.swift in Sources */,
-				54AF60B9F8F61CBF973FF996CE1E7FB0 /* Utils.swift in Sources */,
+				DD44C3A218C78287145828E615A367CE /* AnimatedTabBar-dummy.m in Sources */,
+				0FE54C19F3A3FEE373FB47836FDE4460 /* AnimatedTabBar.swift in Sources */,
+				BC8EEED8283908901415DE1E4216DB3D /* AnimatedTabBarAppearance.swift in Sources */,
+				1FB02204DD4EFD48F7746395E89791D6 /* AnimatedTabBarController.swift in Sources */,
+				6C6849AE3D563E1E51D7CE44080CB13C /* AnimatedTabBarItem.swift in Sources */,
+				3AA9B94DD044F8959B165EC1A4166423 /* AnimatedTabBarView.swift in Sources */,
+				78B1937FEF0AA8A0D08204FC66242273 /* BubbleTabBarItem.swift in Sources */,
+				681AAE69AAD9B0C23BEB604DC7151105 /* BubbleTabBarView.swift in Sources */,
+				67920B764D029F1D7C8541A44010DC77 /* CommonUIView.swift in Sources */,
+				0A922380BC3AFEC10B36DFFF3C883A73 /* LabelAndDot.swift in Sources */,
+				7797328002FF772797289E0E38818F4C /* LabelAndDotTabBarItem.swift in Sources */,
+				AD6C8104FFBCE1824A8C2FA8C2E48C9B /* LabelAndDotTabBarView.swift in Sources */,
+				E585CC2A25B33133A73532E2F05709D4 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,15 +365,15 @@
 		513CA681FAE6194F821CBD7F7F5545EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnimatedTabBar;
-			target = C0997E583CFC77E54609DF1DD87782D3 /* AnimatedTabBar */;
+			target = B1F8F4ABFD26B698DC982B44770511C8 /* AnimatedTabBar */;
 			targetProxy = E486DD9490CB510F7644601298DCC8AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8FDA7095B5447E5E3F99E583DE8ED30C /* Release */ = {
+		65A8308D6EEF8F206450279AB8528B8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FFFE1117C7ED546C33FF4198D67C251 /* AnimatedTabBar.xcconfig */;
+			baseConfigurationReference = DE225CB49CB0EF4159351D5934A19415 /* AnimatedTabBar.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -387,9 +408,9 @@
 			};
 			name = Release;
 		};
-		93685F2B63278F8263E79B1677B2A90C /* Debug */ = {
+		6F26963D858C9BECEAAF50AC104B9D47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FFFE1117C7ED546C33FF4198D67C251 /* AnimatedTabBar.xcconfig */;
+			baseConfigurationReference = DE225CB49CB0EF4159351D5934A19415 /* AnimatedTabBar.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -636,20 +657,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3FB46A23A2D42DC28FA871B528F26B4A /* Build configuration list for PBXNativeTarget "AnimatedTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F26963D858C9BECEAAF50AC104B9D47 /* Debug */,
+				65A8308D6EEF8F206450279AB8528B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1391485F05B41BD35738A433056B7FA /* Debug */,
 				A105C1752A0A49B30ED621B71E226CDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9925ED1502C312D2789480628A2632F8 /* Build configuration list for PBXNativeTarget "AnimatedTabBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93685F2B63278F8263E79B1677B2A90C /* Debug */,
-				8FDA7095B5447E5E3F99E583DE8ED30C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

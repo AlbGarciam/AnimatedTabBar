@@ -82,12 +82,14 @@ open class AnimatedTabBar: CommonUIView {
         for i in 0 ..< ( delegate?.numberOfItems ?? 0 ) {
             if let item = delegate?.tabBar(self, itemFor: i) {
                 // Add View to the stack
-                let view = AnimatedTabBarView()
-                view.delegate = self
+                let view = item.getView()
+                view.translatesAutoresizingMaskIntoConstraints = false
                 stackView.addArrangedSubview(view)
-                view.setupView(model: item)
-                view.position = i
-                view.isSelected = false
+                if let view = view as? AnimatedTabBarView {
+                    view.delegate = self
+                    view.isSelected = false
+                    view.position = i
+                }
             }
         }
     }
