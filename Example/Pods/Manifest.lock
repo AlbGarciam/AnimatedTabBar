@@ -1,5 +1,5 @@
 PODS:
-  - AnimatedTabBar (0.1.5)
+  - AnimatedTabBar (0.1.6)
 
 DEPENDENCIES:
   - AnimatedTabBar (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AnimatedTabBar: 969204cc23401df27f5bf139ee427f2c1d19e045
+  AnimatedTabBar: 5531e8911f95030adf555b4822b3fba44c5b0b04
 
 PODFILE CHECKSUM: fc65f9f27ba568edebbc876e6a99afcc1265bc10
 

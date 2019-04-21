@@ -18,18 +18,6 @@ internal protocol AnimatedTabBarInternalDelegate : AnyObject {
     func selected(_ tabbar: AnimatedTabBar, newItem: UIViewController?, oldItem: UIViewController?)
 }
 
-public struct AnimatedTabBarItem {
-    public var icon: UIImage
-    public var title: String
-    public var controller: UIViewController
-    
-    public init(icon: UIImage, title: String, controller: UIViewController) {
-        self.icon = icon
-        self.title = title
-        self.controller = controller
-    }
-}
-
 open class AnimatedTabBar: CommonUIView {
     
     private var contentView : UIView!

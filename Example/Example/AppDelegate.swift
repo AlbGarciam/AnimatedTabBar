@@ -12,11 +12,11 @@ import AnimatedTabBar
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    var items = [AnimatedTabBarItem(icon: UIImage(named: "thunder") ?? UIImage(),
+    var items = [LabelAndDotTabBarItem(icon: UIImage(named: "thunder") ?? UIImage(),
                                     title: "New", controller: UIViewController()),
-                 AnimatedTabBarItem(icon: UIImage(named: "home") ?? UIImage(),
+                 LabelAndDotTabBarItem(icon: UIImage(named: "home") ?? UIImage(),
                                     title: "Home", controller: ViewController.create() ?? UIViewController()),
-                 AnimatedTabBarItem(icon: UIImage(named: "search") ?? UIImage(),
+                 LabelAndDotTabBarItem(icon: UIImage(named: "search") ?? UIImage(),
                                     title: "Search", controller: UIViewController())]
     var window: UIWindow?
     
